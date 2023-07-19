@@ -1,0 +1,249 @@
+*{
+
+    box-sizing: border-box;
+    direction: ltr;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin:0px;
+    font-size: 16px;
+}
+
+.container .phone{
+    width: 400px ;
+    margin:0px auto;
+    background-color: rgba(0,0,0,0.06);
+    min-height: 100vh; /*100% page*/
+    font-size: 1.3em;/*change icon size*/
+}
+
+/*footer*/
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1em;
+    margin: 0px;
+}
+
+.footer i{
+    color: black;
+    
+}
+.footer img{
+    width: 30px;
+    border-radius: 50px;
+}
+
+/*header*/
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items:center;
+}
+
+.header-nav .left{
+
+
+}
+
+.header-nav .left span{
+    font-weight: bold;
+    font-size: 1em;
+    margin-right: 6px;
+
+}
+
+.header-nav .left i{
+    font-size: 0.9em;
+}
+
+.header-nav .right{
+
+font-size: 1.1em;
+}
+
+.header-nav .right i{
+
+
+}
+
+/*profile*/
+
+.profile .info{
+    display: flex;
+    justify-content: space-between; /*در یک ردیف افقی*/
+    padding: 15px;
+    align-items:center;
+}
+.profile .info .image{
+    position: relative;  /* بخون*/
+
+}
+
+.profile .info .image img{
+    border-radius: 50%;
+    width: 97px;
+    height: 95px;
+
+}
+.profile .info .image i{
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    color:#1c80c2;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 50%;
+  
+}
+.profile .info .item{
+    display: flex;
+    flex-direction: column;
+    align-items:center;/*در یک ردیف عمودی*/
+}
+.profile .info .item .number{
+    font-size: 0.95em;
+    font-weight: bold;
+    
+}
+
+.profile .info .item .title{
+
+    font-size: 0.8em;
+    
+} 
+
+/*caption*/
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    font-size:0.69em ;
+    padding: 0.5px 15px ;
+   
+}
+.caption .idprof{
+    font-weight: bold;
+}
+.caption .tag{
+    color: #1c80c2;
+    margin-top: 5px;
+}
+
+/*edit-profile*/
+
+.edit-profile{
+    background-color: white;
+    text-align: center;
+    display: block;
+    border-radius: 7px;
+    border: 1px solid rgb(218, 213, 213);
+    padding: 4px 0px;
+    margin: 20px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(70, 67, 67);
+    
+
+}
+
+/*highlight*/
+
+.highlight{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(209, 209, 209);
+
+}
+.highlight .add-highlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 25px 10px;
+    
+
+}
+.highlight .add-highlight .add{ 
+   font-size: 2em;
+   width: 55px;
+   height: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   border: 1px solid rgb(186, 185, 185);
+
+
+}
+
+.highlight .add-highlight span{
+    font-size: 17px;
+
+}
+.highlight .story-high{
+   font-size: 17px;
+   text-align: center;
+   margin: 0px 5px 10px;
+  
+}
+.highlight .story-high .image-container{
+    display: flex;
+    width: 58px;
+    height: 58px;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 50%;
+    padding: 2.5px;
+    margin: 0px 10px;
+   
+}
+.highlight .story-high .image-container img{
+   
+    border-radius: 50%;
+    margin: 0px 0.2px;
+   
+}
+
+/*navigation*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation div{
+    flex: 1;
+    text-align: center;
+    
+}
+.navigation div i{
+    font-size: 1.3em;
+    padding: 10px;
+    color: rgb(165, 165, 165);
+}
+.nav-active i{
+    color: rgb(64, 64, 64) !important;
+    
+}
+.nav-active{
+    border-bottom: 1.5px solid rgb(64, 64, 64);
+}
+.navigation img{
+    width: 32px;
+    padding: 8px 0px 0px 0px;
+    
+}
